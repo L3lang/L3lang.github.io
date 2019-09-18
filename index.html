@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119908223-2"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-119908223-2');
+		</script>
+
+		<title>L3</title>
+		<link rel="icon" href="favicon.ico">
+
+		<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+        
+        <meta name="description" content="L3 programming language">
+        <meta name="keywords" content="L3, programming, language, productivity, abstraction">
+	</head>
+
+	<body>
+		<div class="centered">
+			<h1 id="title" class="centered">
+				L3
+			</h1>
+
+			<br>
+			<br>
+
+			<h2 class="centered title">Maximum Productivity</h2>
+			<div class="text">
+			<h3>0 dependency management</h3>
+			no need to download, build, setup include paths, linking or even use #include
+			everything is automatically available
+
+			<h3>easier to program</h3>
+			single int type
+			two container types
+			function paramters are passed as reference that's either mutable or immutable, instead 
+			of both copy/reference & const/non-const (and automatically optimized to copy when there's benefit)
+
+			<h3>easier to work with</h3>
+			directly edit the AST with a GUI: no formatting holy wars
+			code is displayed as a call graph to make it easy to follow, instead of jumping between source files
+			
+			<h3>safer</h3>
+			no integer overflow/underflow (0 overhead)
+			no manual memory management (without needlessly using GC)
+
+			<h3>easy to adopt</h3>
+			compiles into source code of other languages, so it can be introduced into existing projects
+			(currently only C++ is available)
+			</div>
+
+			<br>
+			<br>
+
+			<h2 class="centered title">Maximum Performance</h2>
+			<div class="text">
+			<h3>automatic parallelism</h3>
+			fine grained
+			impossible to create concurrency bugs
+			
+			<h3>automatic high level optimizations</h3>
+			memory layout (ex: AoS/SoA)
+			object pooling
+			and more...
+
+			<h3>multi device</h3>
+			automatic heterogeneous and distributed computing
+			</div>
+
+			<br>
+			<br>
+		</div>
+	</body>
+</html>
