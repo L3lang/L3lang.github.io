@@ -13,12 +13,14 @@ A variable hold an instance of a type, and its values that can change.
 
 ### types
 
-integer  
-[container](../containers)  
-[class](../classes)
+- [integer](../integer)  
+- [container](../containers)
+- [class](../classes)
 
-## initialization expression
+## Initialization expression
 
-initializes the variable with a given expression, and deduces the type from the expression.
+Initializes the variable with a given expression, and deduces the type from the expression.
 
-## calling a variable
+## Calling a variable
+
+To use a variable's value, use the `variable call` expression node.
