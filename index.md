@@ -36,3 +36,7 @@ L3 is designed to maximize developer **productivity** and runtime **performance*
 - [ ] Automatic distributed computing.
 
 And many more automatic high level optimizations.
+
+# Benchmarks
+
+{% include /plots/find_smallest.html %}
