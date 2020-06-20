@@ -39,4 +39,8 @@ And many more automatic high level optimizations.
 
 # Benchmarks
 
+The benchmarks measure the performance of code with similar level of complexity.  
+The reason is that performance is 2 dimentional problem - speed and the amount of programming work.  
+Given full control over the hardware, infinite time, and sufficiently smart programmer, an optimal implementation can be achieved, but it's not feasible.
+
 {% include /plots/find_smallest.html %}
