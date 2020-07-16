@@ -14,7 +14,7 @@ L3 is designed to maximize developer **productivity** and runtime **performance*
 
 ## Simple
 
-- [ ] 0 dependency management - no need to download, build, or include or use a package manager. everything is automatically available.
+- [ ] 0 dependency management - no need to download, build, or include or use a package manager.
 - [x] 1 integer type.
 - [ ] 1 floating point type.
 - [x] 2 container types.
