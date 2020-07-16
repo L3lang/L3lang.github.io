@@ -45,6 +45,12 @@ Given full control over the hardware, infinite time, and sufficiently smart prog
 
 In other words the purpose of these benchmarks is to measure how much speedup you get for the same amount of programming work.
 
-{% include /plots/find_smallest.html %}
+## Find smallest
 
-{% include /plots/lookup.html %}
+Insert 10 random [0,100] integers into a container, and then find the smallest one.
+<object data="/assets/plots/find_smallest.svg" type="image/svg+xml"></object>
+
+## Lookup
+
+Insert 100 random {[0,99],[0,99]} key-value pairs of integers into a map, and then randomly lookup one of these elements.
+<object data="/assets/plots/lookup.svg" type="image/svg+xml"></object>
