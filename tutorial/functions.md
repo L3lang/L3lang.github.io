@@ -13,11 +13,6 @@ nav_order: 1
 
 ## Creating a function
 
-Create a new function by pressing the add function button:  
-![](/assets/images/create_function.png)
-
-Define what the function does by adding statements to the function's body:  
-![](/assets/images/simple_function.png)
 
 ## Calling a function
 
