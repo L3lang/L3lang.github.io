@@ -65,7 +65,7 @@ Lookup an element by its key.
 **inputs:**
 - container variable
 - key value
-- variable decleration for the found element
+- variable declaration for the found element
 
 **outputs:**
 - if found branch

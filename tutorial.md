@@ -21,4 +21,4 @@ L3 uses a graphical code editor to directly edit the [Abstract Syntax Tree](http
 ## Terminology
 
 **expression** - something that returns a value. For example addition operation, function call.  
-**statement** - something that defines part of the program. For example function decleration, if statement.
+**statement** - something that defines part of the program. For example a function declaration, or an if statement.
