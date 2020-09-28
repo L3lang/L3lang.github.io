@@ -54,3 +54,9 @@ Insert 10 random [0,100] integers into a container, and then find the smallest o
 
 Insert 100 random {[0,99],[0,99]} key-value pairs of integers into a map, and then randomly lookup one of these elements.
 <object data="/assets/plots/lookup.svg" type="image/svg+xml"></object>
+
+## Benchmarking machine:
+- **CPU:** i7-6700K @ 4.00 GHz
+- **RAM:** 2x4GB DDR3 @ 1333 MHz
+- **Operating System:** Windows 10
+- **Compiler:** Visual Studio 16.7.4
