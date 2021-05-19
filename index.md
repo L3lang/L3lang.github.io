@@ -55,6 +55,13 @@ Insert 10 random [0,100] integers into a container, and then find the smallest o
 Insert 100 random {[0,99],[0,99]} key-value pairs of integers into a map, and then randomly lookup one of these elements.
 <object data="/assets/plots/lookup.svg" type="image/svg+xml"></object>
 
+## Automatic incremental computing
+a tree of relative positions and computing the absolute position of each node.  
+`cpp`: C++ implementation without incremental computing.  
+`cpp_IC`: C++ with incremental computing, storing the abs position and checking if it needs to be updated.  
+`L3`: similar to the cpp one, and the compiler automatically generates incremental computing code.
+<object data="/assets/plots/relative_position.svg" type="image/svg+xml"></object>
+
 ## Benchmarking machine:
 - **CPU:** i7-6700K @ 4.00 GHz
 - **RAM:** 2x4GB DDR3 @ 1333 MHz
